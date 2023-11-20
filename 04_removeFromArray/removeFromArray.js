@@ -1,10 +1,8 @@
-let ary = []
+
 
 const removeFromArray = function(arrayContents, removed) {
-    ary = arrayContents.filter((element) => 
+    return arrayContents.filter((element) => 
         (element !== removed))
-    console.log(ary)
-    return ary
 };
 
 
